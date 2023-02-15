@@ -8,10 +8,24 @@
   font-family: "Poppins", sans-serif;
 }
 
+.mainGallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 50px 75px 100px;
+  padding: 25px 50px 75px 100px;
+}
+
 .link {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   padding-bottom: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
 .description {

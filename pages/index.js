@@ -33,8 +33,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <Link href="/polychromatic" className={styles.link}>polychromatic</Link>
+      <Link href="/polychromatic" className={styles.link}>polychromatic ➜</Link>
+      <main className={styles.mainGallery}>
         {
           data && data.results.map((tech, index) => {
             return (
